@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Técnicas - Tech Safe Place</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        h3 {
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .tecnicas-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .tech-box {
+            position: relative;
+            width: 30%;
+            height: 300px;
+            background-color: #22262b4d;
+            color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .tech-box:hover {
+            transform: scale(1.05); 
+        }
+
+        .tech-box .tech-content {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            position: absolute;
+            top: 10px;
+            bottom: 10px;
+            left: 10px;
+            right: 10px;
+            overflow-y: auto;
+        }
+
+        .tech-box:hover .tech-content {
+            opacity: 1;
+        }
+
+       
+        @media (max-width: 768px) {
+            .tech-box {
+                width: 45%;
+                height: 250px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .tech-box {
+                width: 100%;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="informações.html">Informações</a></li>
+            <li><a href="técnicas.html">Técnicas</a></li>
+            <li><a href="portoseguro.html">Porto seguro</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+    </div>
+
+    <button class="toggle-btn" id="toggle-btn">&#9776;</button>
+
+    <header>
+        <nav class="navbar section-content">
+            <h2 class="logo-text">Safe place</h2>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="informações.html" class="nav-link">Informações</a></li>
+                <li class="nav-item"><a href="técnicas.html" class="nav-link">Técnicas</a></li>
+                <li class="nav-item"><a href="portoseguro.html" class="nav-link">Porto seguro</a></li>
+                <li class="nav-item"><a href="contatos.html" class="nav-link">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h3>Informações sobre a Automutilação</h3>
+
+        <p>Imagina que você tá andando na rua e com uma dor muito forte na barriga, aí você bate com a ponta do dedo numa pedra sem querer, automaticamente você vai “esquecer” a dor de barriga e focar no seu dedo que tá doendo, não é?</p>
+
+        <p>A automutilação é um comportamento complexo e doloroso que afeta muitos adolescentes, sendo, muitas vezes, uma forma de lidar com a dor emocional intensa. Para muitos jovens, o desejo de sentir dor física surge como uma tentativa de esquecer ou minimizar a dor mental que experimentam. Quando enfrentam dificuldades emocionais como ansiedade, depressão, bullying ou conflitos familiares, alguns recorrem à automutilação como algo para escapar da realidade, acreditando que a dor física possa trazer algum alívio para a angústia interna.</p>
+
+        <p>Embora o ato de se ferir possa proporcionar um alívio imediato, esse alívio é apenas momentâneo. A dor física substitui, por um curto período de tempo, a dor psicológica, criando uma sensação ilusória de controle sobre o sofrimento. No entanto, essa solução é temporária, e não resolve a raiz dos problemas emocionais. Após o momento de automutilação, a dor mental frequentemente retorna com mais intensidade, muitas vezes acompanhada de sentimentos de culpa, vergonha ou frustração, o que pode gerar um ciclo vicioso de repetição.</p>
+
+        <p>É importante entender que a automutilação não é uma solução saudável ou eficaz para lidar com as dificuldades emocionais. Em vez de buscar formas prejudiciais de alívio, é fundamental que os adolescentes encontrem formas de expressar e lidar com seus sentimentos de maneira construtiva, seja por meio de diálogo, terapia, atividades físicas ou artísticas. O apoio de profissionais da saúde mental, como psicólogos e psiquiatras, pode ser crucial para ajudar os jovens a compreenderem e enfrentarem suas emoções de forma mais saudável, interrompendo o ciclo de sofrimento físico e psicológico. O que os adolescentes realmente precisam é de compreensão, suporte e ferramentas adequadas para lidar com suas dores emocionais, de forma a encontrar o alívio duradouro e o bem-estar.</p>
+
+        <h3>Técnicas para Substituir a Automutilação</h3>
+        <p> Vamos fazer isto de forma dinâmica? Basta clicar em um dos quadrados e descobrir uma técnica diferente de um jeito divertido e prático</p>
+
+        <div class="tecnicas-container">
+            <div class="tech-box">
+                <div class="tech-content">
+                    <h4>Distração Física</h4>
+                    <p>Encontre algo que envolva os sentidos, como apertar uma bolinha anti-stress, ou dar um "golpe" em algo macio (como uma almofada ou travesseiro). Isso pode ajudar a liberar a tensão sem causar danos ao corpo.</p>
+                </div>
+            </div>
+
+            <div class="tech-box">
+                <div class="tech-content">
+                    <h4>Técnica do Gelo</h4>
+                    <p>Segurar um cubo de gelo nas mãos ou nos pulsos. O frio intenso pode ser uma maneira de "desviar" a sensação emocional intensa, criando um foco físico imediato que substitui o impulso de se machucar.</p>
+                </div>
+            </div>
+
+            <div class="tech-box">
+                <div class="tech-content">
+                    <h4>Técnica 5-4-3-2-1</h4>
+                    <p>Focar nos Sentidos: Quando você sente a necessidade de se machucar, use essa técnica para "sair" do momento:</p>
+                    <ul>
+                        <li>5 coisas que você pode ver.</li>
+                        <li>4 coisas que você pode tocar.</li>
+                        <li>3 coisas que você pode ouvir.</li>
+                        <li>2 coisas que você pode cheirar.</li>
+                        <li>1 coisa que você pode saborear.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tech-box">
+                <div class="tech-content">
+                    <h4>Respiração Profunda</h4>
+                    <p>Praticar a respiração 4-7-8, onde você inala por 4 segundos, segura a respiração por 7 segundos e expira lentamente por 8 segundos. Isso pode acalmar o sistema nervoso e ajudar a reduzir a urgência do impulso.</p>
+                </div>
+            </div>
+
+            <div class="tech-box">
+                <div class="tech-content">
+                    <h4>Mindfulness</h4>
+                    <p>Sente-se em um lugar tranquilo e preste atenção nos sentimentos e pensamentos sem julgá-los. Permita-se sentir, mas observe esses sentimentos como algo que passa, em vez de algo a ser evitado ou reagido impulsivamente.</p>
+                </div>
+            </div>
+
+            <div class="tech-box">
+                <div class="tech-content">
+                    <h4>Escrita Terapêutica</h4>
+                    <p>Tente escrever sobre o que está sentindo. Isso pode incluir o que está acontecendo no momento ou escrever uma carta para si mesmo, descrevendo as emoções e explorando o que está por trás do impulso de se machucar.</p>
+                </div>
+            </div>
+
+            <div class="tech-box">
+                <div class="tech-content">
+                    <h4>Desenho ou Pintura</h4>
+                    <p>A arte pode ser uma forma de externalizar as emoções de uma maneira segura e não destrutiva. Isso pode ajudar a processar sentimentos de forma criativa.</p>
+                </div>
+            </div>
+
+            <div class="tech-box">
+                <div class="tech-content">
+                    <h4>Ancoragem Positiva</h4>
+                    <p>Escolha um objeto, uma música ou uma palavra que lhe traga calma ou conforto e use isso como uma "âncora". Sempre que o impulso de se machucar surgir, se concentre nessa âncora para criar um novo padrão de resposta emocional.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
